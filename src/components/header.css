@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+}
+
+h1, h2, h3 {
+    padding: 1rem .4rem;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+}
+
+li {
+    position: relative;
+    z-index: 1;
+    padding: .6rem 1rem;
+    margin: 0 .3rem;
+
+}
+
+li::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: .2rem;
+    bottom: 0;
+    left: 0;
+    background-color: #a98aff;
+    
+    transition: .3s ease-out;
+}
+
+li:hover:after {
+    width: 100%;
+    color: white;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li:active {
+    background-color: #ccc;
+}
