@@ -1,20 +1,22 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #ddd;
+    background-color: #a98aff
 }
 
 h1, h2, h3 {
+    font-weight: bold;
+    
     padding: 1rem .4rem;
     margin: 0;
 }
 
-ul {
+.ul {
     padding: 0;
     display: flex;
 }
 
-li {
+.li {
     position: relative;
     z-index: 1;
     padding: .6rem 1rem;
@@ -22,19 +24,19 @@ li {
 
 }
 
-li::after {
+.li::after {
     content: '';
     position: absolute;
     width: 0%;
     height: .2rem;
     bottom: 0;
     left: 0;
-    background-color: #a98aff;
+    background-color: #5e27f5;
     
     transition: .3s ease-out;
 }
 
-li:hover:after {
+.li:hover:after {
     width: 100%;
     color: white;
 }
@@ -44,5 +46,5 @@ li:hover {
 }
 
 li:active {
-    background-color: #ccc;
+    background-color: #c5b0ff;
 }

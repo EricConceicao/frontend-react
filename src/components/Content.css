@@ -1,0 +1,14 @@
+#content {
+    width: 500px;
+    min-height: 500px;
+    flex-grow: 1;
+    background-color: #aaa;
+}
+
+.title {
+    padding: .4rem;
+}
+
+p {
+    padding: .6rem;
+}
