@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #a98aff
+    background: linear-gradient(#b69cff, #6f52be);
 }
 
 h1, h2, h3 {
@@ -31,14 +31,13 @@ h1, h2, h3 {
     height: .2rem;
     bottom: 0;
     left: 0;
-    background-color: #5e27f5;
+    background-color: #e1ffaa;
     
     transition: .3s ease-out;
 }
 
 .li:hover:after {
     width: 100%;
-    color: white;
 }
 
 li:hover {

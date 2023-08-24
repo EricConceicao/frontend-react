@@ -6,9 +6,9 @@ function Header(props) {
             <h1>Water word</h1>
             <nav>
                 <ul className='ul'>
-                    <li className='li'>Home</li>
-                    <li className='li'>Docs</li>
-                    <li className='li'>Contact</li>
+                    <li className='li'><a href="/">Home</a></li>
+                    <li className='li'><a href="/about">About</a></li>
+                    <li className='li'><a href="/contact">Contact</a></li>
                 </ul>
             </nav>
         </header>

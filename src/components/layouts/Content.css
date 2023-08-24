@@ -1,8 +1,9 @@
 #content {
-    width: 500px;
     min-height: 500px;
     flex-grow: 1;
-    background-color: #aaa;
+    background: linear-gradient(#a5a5a5, #696969);
+
+    border-radius: 5px;
 }
 
 .title {

@@ -13,3 +13,8 @@ npm create vite@latest
 ```
 npm run dev
 ```
+
+### Biblíoteca para controle de rotas no React
+```
+npm i react-router-dom
+```
