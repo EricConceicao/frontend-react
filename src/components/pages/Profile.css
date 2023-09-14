@@ -1,0 +1,32 @@
+@keyframes walk {
+    0% {transform: rotateZ(-5deg);}
+    50% {transform: rotateZ(5deg);}
+    100% {transform: rotateZ(-5deg);}
+}
+
+.Profile main {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 4em;
+}
+
+.pfp {
+    display: inline-block;
+
+    padding: 1em;
+    border: double 1em #3a1e9e; 
+}
+
+.pfp img {
+    margin-bottom: .3em;
+    animation: walk 1s ease-out 1s infinite;
+}
+
+.pfp figcaption {
+    font-size: 1.4em;
+    text-align: center;
+    text-decoration:underline .125em #470c30;
+    padding: .4em;
+    background-color: #eeeeff;
+}

@@ -5,10 +5,9 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './components/pages/Home.jsx';
 import About from './components/pages/About.jsx';
 import Contact from './components/pages/Contact.jsx';
-import Page404 from './components/pages/Page404.jsx';
+import Profile from './components/pages/Profile.jsx';
 
-// CSS imports
-import './App.css';
+import Page404 from './components/pages/Page404.jsx';
 
 function App() {
   return (
@@ -16,6 +15,7 @@ function App() {
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />
       <Route path='/contact' element={<Contact />} />
+      <Route path='/profile' element={<Profile />} />
 
       <Route path='*' element={<Page404 />} />
     </Routes>

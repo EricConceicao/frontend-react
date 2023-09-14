@@ -1,0 +1,17 @@
+button {
+    border: none;
+    padding: .6em 1em;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: rgb(99, 99, 99);
+}
+
+.primary {
+    background-color: #f8f864;
+}
+
+.secondary {
+    background-color: white;
+}
