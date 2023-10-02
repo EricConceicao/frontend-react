@@ -1,8 +1,6 @@
-import './Button.css';
-
 function Button(props) {
     return (
-        <button className={props.style}>{props.text}</button>
+        <button className={'button btn ' + props.style}>{props.text}</button>
     );
 }
 

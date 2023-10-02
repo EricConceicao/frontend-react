@@ -4,14 +4,12 @@ import Sidebar from '../layouts/Sidebar';
 import Content from '../layouts/Content';
 import Footer from '../layouts/Footer';
 
-import './Home.css';
-
 function Home() {
     return (
-      <div className='Home'>
+      <div className=''>
         <Header />
   
-        <div>
+        <div className='p-2 d-flex'>
           <Sidebar />
           <Content>
             <h1>Welcome!</h1>
